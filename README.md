@@ -1,4 +1,7 @@
-# test coverage for  [imagemin-guetzli (v0.1.5)](https://github.com/bradbaris/imagemin-guetzli#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-imagemin-guetzli.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-imagemin-guetzli) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-imagemin-guetzli.svg)](https://travis-ci.org/npmtest/node-npmtest-imagemin-guetzli)
+# npmtest-imagemin-guetzli
+
+#### basic test-coverage for  [imagemin-guetzli (v1.0.0)](https://github.com/imagemin/imagemin-guetzli#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-imagemin-guetzli.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-imagemin-guetzli) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-imagemin-guetzli.svg)](https://travis-ci.org/npmtest/node-npmtest-imagemin-guetzli)
+
 #### Guetzli imagemin plugin
 
 [![NPM](https://nodei.co/npm/imagemin-guetzli.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/imagemin-guetzli)
@@ -37,13 +40,13 @@
         "url": "github.com/bradbaris"
     },
     "bugs": {
-        "url": "https://github.com/bradbaris/imagemin-guetzli/issues"
+        "url": "https://github.com/imagemin/imagemin-guetzli/issues"
     },
     "dependencies": {
-        "exec-buffer": "^3.0.0",
-        "guetzli": "^0.1.0",
+        "exec-buffer": "^3.1.0",
+        "guetzli": "^1.0.0",
         "is-jpg": "^1.0.0",
-        "is-png": "^1.0.0",
+        "is-png": "^1.1.0",
         "number-is-integer": "^1.0.1"
     },
     "description": "Guetzli imagemin plugin",
@@ -54,8 +57,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "d1234b98a7d4b751fee2a31aec79f13781be67d7",
-        "tarball": "https://registry.npmjs.org/imagemin-guetzli/-/imagemin-guetzli-0.1.5.tgz"
+        "shasum": "6bffb4d1dbffed61930a1556ec9af6b3f33dec39",
+        "tarball": "https://registry.npmjs.org/imagemin-guetzli/-/imagemin-guetzli-1.0.0.tgz"
     },
     "engines": {
         "node": ">=4"
@@ -63,8 +66,8 @@
     "files": [
         "index.js"
     ],
-    "gitHead": "4c3905f1820802a8a04b9ff0523046807eb8ef7a",
-    "homepage": "https://github.com/bradbaris/imagemin-guetzli#readme",
+    "gitHead": "16c30c54793702ce930840ab8d9364a5dad49709",
+    "homepage": "https://github.com/imagemin/imagemin-guetzli#readme",
     "keywords": [
         "compress",
         "image",
@@ -80,22 +83,32 @@
     "license": "MIT",
     "maintainers": [
         {
+            "name": "1000ch"
+        },
+        {
             "name": "bradbaris"
+        },
+        {
+            "name": "kevva"
+        },
+        {
+            "name": "shinnn"
+        },
+        {
+            "name": "sindresorhus"
         }
     ],
     "name": "imagemin-guetzli",
     "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bradbaris/imagemin-guetzli.git"
+        "url": "git+https://github.com/imagemin/imagemin-guetzli.git"
     },
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "0.1.5",
-    "xo": {
-        "esnext": true
-    }
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
